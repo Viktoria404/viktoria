@@ -1,0 +1,567 @@
+<?php header("Content-Type:text/html;charset=utf-8");?>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./wowjs/animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>viktori.zaharova</title>
+</head>
+
+<body>
+
+    <div class="progress-bar">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <section class="about">
+        <div class="about__img wow fadeIn">
+            <img src="./img/author.png" alt="" class="img__photo">
+        </div>
+        <div class="about__author wow fadeIn">
+            <h2 class="author__name">Добро <span class="pink">пожаловать!</span></h2>
+            <p class="author__info">Меня зовут Вика!<br>
+                Я маркетолог с красным дипломом и 7-ми летним опытом работы в сфере маркетинга. Вы можете в любой момент
+                задать мне вопрос про маркетинг для своего проекта и получить бесплатный совет.<br><br>
+                1. Восстанавливаю убитые бизнесы и упаковываю с 0;<br>
+                2. Работаю с блогерами;<br>
+                3. Развиваю и упаковываю аккаунты экспертов, специалистов и частных мастеров.<br>
+                Скорая и профилактическая помощь для вашего бизнеса 24/7.</p>
+            <ul class="author__socials">
+                <li class="social__item">
+                    <a href="https://wa.me/79213640337" target="_blank" class="social__link">
+                        <img src="./socials/whatsapp.svg" alt="" class="social__img">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://www.instagram.com/viktori.zaharova/" target="_blank" class="social__link">
+                        <img src="./socials/instagram.svg" alt="" class="social__img">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://vk.com/viktori.zaharova" target="_blank" class="social__link">
+                        <img src="./socials/vk.svg" alt="" class="social__img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h3 class="courses__title wow fadeIn">Мои услуги и цены</h3>
+        <div class="courses__block">
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/1.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title">Личная консультация</h3>
+                <ul class="item__list">
+                    <li class="list__point">Мозговой штурм;</li>
+                    <li class="list__point">Анализ конкурентной среды;</li>
+                    <li class="list__point">Поиск Целевой Аудитории;</li>
+                    <li class="list__point">Выделение всех слабых сторон в ведении и упаковке вашего бизнеса;</li>
+                    <li class="list__point">Выделение всех слабых сторон вашего блога;</li>
+                    <li class="list__point">Разработка по их устранению;</li>
+                    <li class="list__point">Проработка сочного контента;</li>
+                    <li class="list__point">План-стратегия по развитию аккаунта;</li>
+                    <li class="list__point">Ответы на все ваши вопросы.</li>
+                </ul>
+                <p class="attention">Внимание! Консультация занимает от 1,5 до 4 часов</p>
+                <div class="item__section">
+                    <hr>
+                    <p class="item__price">9900 руб.</p>
+                    <button class="item__buy">Беру!</button>
+                </div>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/2.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title">Продюсирование визуала</h3>
+                <ul class="item__list">
+                    <li class="list__point">Разбор аккаунта по визуальному оформлению (выделение всех слабых сторон
+                        вашего визуала);</li>
+                    <li class="list__point">Разработка грамотной визуальной концепции ленты;</li>
+                    <li class="list__point">Презентация визуальной концепции и ее согласование;</li>
+                    <li class="list__point">Подбор референсов (примеров) и локаций для фотосессии;</li>
+                    <li class="list__point">Подбор фотографа и видеографа;</li>
+                    <li class="list__point">Подбор стилиста-визажиста (если требуется);</li>
+                    <li class="list__point">Индивидуально разработанный пресет (фильтр на фотографии);</li>
+                    <li class="list__point">Создание гармоничной ленты на 9 кадров.</li>
+                </ul>
+                <div class="item__section">
+                    <hr>
+                    <p class="item__price">5000 руб.</p>
+                    <button class="item__buy">Беру!</button>
+                </div>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/3.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title">Создание личного бренда</h3>
+                <ul class="item__list">
+                    <li class="list__point">Выделение всех слабых сторон вашего блога;</li>
+                    <li class="list__point">Разработка по их устранению;</li>
+                    <li class="list__point">Оформление обложек для актуальных сторис;</li>
+                    <li class="list__point">Разработка макета для аватара;</li>
+                    <li class="list__point">Подбор шрифта для обложек постов (если требуется);</li>
+                    <li class="list__point">Разработка грамотного визуальной концепции ленты;</li>
+                    <li class="list__point">Презентация визуальной концепции и ее согласование;</li>
+                    <li class="list__point">Подбор референсов (примеров) и локаций для фотосессии;</li>
+                    <li class="list__point">Подбор фотографа и видеографа;</li>
+                    <li class="list__point">Подбор стилиста-визажиста;</li>
+                    <li class="list__point">
+                        Сопровождение на фотосессии<br>
+                        (направляю вас и фотографа на съемке по визуальной задумке);</li>
+                    <li class="list__point">30 минут личной консультации<br>
+                        (отвечу на все вопросы по теме вашего блога);</li>
+                    <li class="list__point">Индивидуально разработанный пресет (фильтр на фотографии);</li>
+                    <li class="list__point">Создание гармоничной ленты на 15 кадров.</li>
+                </ul>
+                <div class="item__section">
+                    <hr>
+                    <p class="item__price">15000 руб.</p>
+                    <button class="item__buy">Беру!</button>
+                </div>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/4.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title">Создание личного бренда и продюсирование блога</h3>
+                <ul class="item__list">
+                    <li class="list__point">Личная консультация;</li>
+                    <li class="list__point">Выделение всех слабых сторон вашего блога;</li>
+                    <li class="list__point">Разработка по их устранению;</li>
+                    <li class="list__point">Анализ конкурентной среды;</li>
+                    <li class="list__point">Поиск Целевой Аудитории;</li>
+                    <li class="list__point">Разработка грамотного визуальной концепции ленты;</li>
+                    <li class="list__point">Подбор референсов (примеров) и локаций для фотосессии;</li>
+                    <li class="list__point">Подбор фотографа и видеографа;</li>
+                    <li class="list__point">Подбор стилиста-визажиста;</li>
+                    <li class="list__point">Сопровождение на фотосессии 
+                        (направляю вас и фотографа на съемке по визуальной задумке);</li>
+                    <li class="list__point">Сопровождение в ведении блога в течении месяца 
+                            (Работаю в связке с вами или с вашим смм-специалистом).</li>
+                </ul>
+                <div class="item__section">
+                    <hr>
+                    <p class="item__price">17000 руб.<br>(всего 500 в день)</p>
+                    <button class="item__buy">Беру!</button>
+                </div>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/5.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title">Индивидуальное ведение блога</h3>
+                <ul class="item__list">
+                    <li class="list__point">Выделение всех слабых сторон вашего блога;</li>
+                    <li class="list__point">Разработка по их устранению;</li>
+                    <li class="list__point">Оформление обложек для актуальных сторис;</li>
+                    <li class="list__point">Разработка макета для аватара;</li>
+                    <li class="list__point">Подбор шрифта для обложек постов;</li>
+                    <li class="list__point">Разработка грамотной визуальной концепции ленты;</li>
+                    <li class="list__point">Презентация визуальной концепции и ее согласование;</li>
+                    <li class="list__point"><span class="pink">Совместно работаем над контентом, постами,
+                            сторис<br>(фото и видеоматериал
+                            предоставляется заказчиком);</span>
+                    </li>
+                    <li class="list__point">Комплексное ведение вашего блога в течение месяца:</li>
+                    <li class="list__sub-point"><span class="pink">1.</span> Копирайтинг и публикация постов;</li>
+                    <li class="list__sub-point"><span class="pink">2.</span> Ежедневная выкладка сторис;</li>
+                    <li class="list__sub-point"><span class="pink">3.</span> Общение с аудиторией;</li>
+                    <li class="list__point">Я с вами на связи 24/7.</li>
+                </ul>
+                <p class="attention">Через 30 дней активной работы вы получите проработанный И упакованный аккаунт со
+                    своей стратегией продаж</p>
+                <div class="item__section">
+                    <hr>
+                    <p class="item__price">33000 руб.<br>(всего 1100 в день)</p>
+                    <button class="item__buy">Беру!</button>
+                </div>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/6.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title">Индивидуальное ведение блога + упаковка эксперта</h3>
+                <ul class="item__list">
+                    <li class="list__point">Выделение всех слабых сторон вашего блога;</li>
+                    <li class="list__point">Разработка по их устранению;</li>
+                    <li class="list__point">Проработка контента для экспертного блога;</li>
+                    <li class="list__point">Оформление обложек для актуальных сторис;</li>
+                    <li class="list__point">Разработка макета для аватара;</li>
+                    <li class="list__point">Подбор шрифта для обложек постов;</li>
+                    <li class="list__point">Разработка грамотной визуальной концепции ленты;</li>
+                    <li class="list__point">Презентация визуальной концепции и ее согласование;</li>
+                    <li class="list__point"><span class="pink">Совместно работаем над контентом, постами,
+                            сторис<br>(фото и видеоматериал
+                            предоставляется заказчиком);</span>
+                    </li>
+                    <li class="list__point">Создание продающего инфопродукта;</li>
+                    <li class="list__point">Стратегия продаж через инстаграм;</li>
+                    <li class="list__point">Комплексное ведение вашего блога в течении месяца:</li>
+                    <li class="list__sub-point"><span class="pink">1.</span> Копирайтинг и публикация постов;</li>
+                    <li class="list__sub-point"><span class="pink">2.</span> Ежедневная выкладка сторис;</li>
+                    <li class="list__sub-point"><span class="pink">3.</span> Общение с аудиторией;</li>
+                    <li class="list__point">Я с вами на связи 24/7.</li>
+                </ul>
+                <p class="attention">Через 30 дней на выходе вы получаете готовый упакованный блог, со своей стратегией
+                    продаж, инфопродуктом и личным брендом</p>
+                <div class="item__section">
+                    <hr>
+                    <p class="item__price">45000 руб.<br>(всего 1500 в день)</p>
+                    <button class="item__buy">Беру!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="courses__guide">
+        <h3 class="courses__title wow fadeIn" style="color: black">Гайды</h3>
+        <div class="courses__block">
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/1.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title" style="color: black; min-height: 20px;">ЧЕК-ЛИСТ: "74 эффективных канала для
+                    продвижения"
+                </h3>
+                <div class="item__section">
+                    <p class="item__price_old">290 руб.</p>
+                    <p class="item__price">190 руб.</p>
+                    <button class="item__buy">Хочу!</button>
+                </div>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/2.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title" style="color: black; min-height: 20px;">ЧЕК-ЛИСТ: "О чем писать в блоге"</h3>
+                <div class="item__section">
+                    <p class="item__price_old">290 руб.</p>
+                    <p class="item__price">190 руб.</p>
+                    <button class="item__buy">Хочу!</button>
+                </div>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/3.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title" style="color: black; min-height: 20px;">ЧЕК-ЛИСТ: "Как правильно писать посты в
+                    инстаграм"
+                </h3>
+                <div class="item__section">
+                    <p class="item__price_old">190 руб.</p>
+                    <p class="item__price">90 руб.</p>
+                    <button class="item__buy">Хочу!</button>
+                </div>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/4.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title" style="color: black; min-height: 20px;">ЧЕК-ЛИСТ: "Как раскрутить инстаграм с 0"
+                </h3>
+                <div class="item__section">
+                    <p class="item__price_old">990 руб.</p>
+                    <p class="item__price">490 руб.</p>
+                    <button class="item__buy">Хочу!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="free__courses">
+        <h3 class="courses__title wow fadeIn">В благодарность за подписку на мой
+            инстаграм <span class="pink">я дарю</span></h3>
+        <div class="courses__block">
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/4.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title">Как продать любую услугу в интернете</h3>
+                <button class="item__download" onclick="getFreeCourses()"><a href="./documents/Sale-service.pdf"
+                        download>Скачать</a></button>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/5.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title">Советы по проведению розыгрыша в инстаграм</h3>
+                <button class="item__download" onclick="getFreeCourses()"><a href="./documents/Rozigrish.pdf"
+                        download>Скачать</a></button>
+            </div>
+            <div class="courses__item wow fadeIn">
+                <div class="item__icon">
+                    <img src="./icons/2.svg" alt="" class="icon">
+                </div>
+                <h3 class="item__title">Из чего состоит личный бренд</h3>
+                <button class="item__download" onclick="getFreeCourses()"><a href="./documents/Personal-brand.pdf"
+                        download>Скачать</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="sale">
+        <h2 class="sale__title">Оставь отзыв и получи скидку<br>10% на следующий заказ</h2>
+        <button class="sale__send"><a href="https://wa.me/79213640337" target="_blank">Хочу скидку</a></button>
+    </section>
+
+    <div class="popup">
+        <p>Благодарю за скачивание бесплатного курса!</p>
+    </div>
+
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс Личная консультация">
+            <input type="hidden" name="short-dest" value="Курс Личная консультация">
+            <input type="hidden" name="label" value="$order_id">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <!-- <input type="hidden" name="successURL"
+                value="https://exerbaind.github.io/viktori-zaharova/documents/Sale-service.pdf"> -->
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="sum" value="9900" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс Продюсирование визуала">
+            <input type="hidden" name="short-dest" value="Курс Продюсирование визуала">
+            <input type="hidden" name="label" value="$order_id">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="sum" value="5000" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс Создание личного бренда">
+            <input type="hidden" name="short-dest" value="Курс Создание личного бренда">
+            <input type="hidden" name="label" value="$order_id">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="sum" value="15000" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс Продюсирование блога">
+            <input type="hidden" name="short-dest" value="Курс Продюсирование блога">
+            <input type="hidden" name="label" value="$order_id">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="sum" value="15000" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс Индивидуальное ведение блога">
+            <input type="hidden" name="short-dest" value="Курс Индивидуальное ведение блога">
+            <input type="hidden" name="label" value="$order_id">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="sum" value="33000" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс Индивидуальное ведение блога + упаковка эксперта">
+            <input type="hidden" name="short-dest" value="Курс Индивидуальное ведение блога + упаковка эксперта">
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="sum" value="45000" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс 74 эффективных канала для продвижения">
+            <input type="hidden" name="short-dest" value="Курс 74 эффективных канала для продвижения">
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="sum" value="190" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="successURL"
+                value="https://exerbaind.github.io/viktori-zaharova/documents/74-chanels.pdf">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс О чем писать в блоге">
+            <input type="hidden" name="short-dest" value="Курс О чем писать в блоге">
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="sum" value="190" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="successURL"
+                value="https://exerbaind.github.io/viktori-zaharova/documents/What-to-write-blog.pdf">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс Как правильно писать посты в инстаграм">
+            <input type="hidden" name="short-dest" value="Курс Как правильно писать посты в инстаграм">
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="sum" value="90" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="successURL"
+                value="https://exerbaind.github.io/viktori-zaharova/documents/Write-posts.pdf">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <div class="payment__popup">
+        <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pay__form">
+            <input type="hidden" name="receiver" value="4100112078510467">
+            <input type="hidden" name="formcomment" value="Курс Как раскрутить инстаграм с 0">
+            <input type="hidden" name="short-dest" value="Курс Как раскрутить инстаграм с 0">
+            <input type="hidden" name="targets" value="Оплата курса">
+            <input type="hidden" name="comment" value="Нажмите на кнопку Вернуться на сайт для получения документа">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="sum" value="490" data-type="number">
+            <input type="hidden" name="need-fio" value="false">
+            <input type="hidden" name="successURL"
+                value="https://exerbaind.github.io/viktori-zaharova/documents/Raskrutka.pdf">
+            <input type="hidden" name="need-email" value="true">
+            <label class="pay__choose">Выберите способ оплаты:</label>
+            <label>
+                <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами
+            </label>
+            <label>
+                <input type="radio" name="paymentType" value="AC">Банковской картой
+            </label>
+            <input type="submit" value="К оплате" class="pay__btn">
+            <input type="button" value="Отмена" class="exit__btn">
+        </form>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./wowjs/wow.min.js"></script>
+    <script>
+        const clientWidth = window.innerWidth;
+        if (innerWidth > 800) {
+            new WOW().init();
+        }
+    </script>
+</body>
+
+</html>
