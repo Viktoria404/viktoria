@@ -269,7 +269,7 @@ section {
 }
 
 .courses .courses__block .courses__item:nth-child(5) {
-  min-height: 1100px;
+  min-height: 1200px;
 }
 
 @media screen and (max-width: 1300px) {
