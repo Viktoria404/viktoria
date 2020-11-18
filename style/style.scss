@@ -442,7 +442,7 @@ section {
   }
 }
 
-.courses__guide {
+.course__guide {
   margin-top: 20px;
   .courses__item {
     width: 100%;
@@ -500,150 +500,150 @@ section {
   }
 }
 
-// .courses__guide {
-//   height: auto !important;
-//   padding-bottom: 20px;
-//   margin-top: 10px;
+.courses__guide {
+  height: auto !important;
+  padding-bottom: 20px;
+  margin-top: 10px;
 
-//   .courses__title {
-//     color: $interfaceColor;
-//     font-size: $titleSize;
-//     text-align: center;
-//     text-transform: uppercase;
-//     font-weight: 400;
-//     margin-top: 20px;
+  .courses__title {
+    color: $interfaceColor;
+    font-size: $titleSize;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 20px;
 
-//     @media screen and (max-width: 500px) {
-//       font-size: 24px;
-//     }
-//   }
+    @media screen and (max-width: 500px) {
+      font-size: 24px;
+    }
+  }
 
-//   .courses__block {
-//     display: flex;
-//     width: 100%;
-//     justify-content: space-around;
-//     flex-wrap: wrap;
-//     margin-top: 0px;
+  .courses__block {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0px;
 
-//     .courses__item {
-//       position: relative;
-//       width: 45%;
-//       margin-top: 40px;
-//       background-color: white;
-//       border-radius: 20px;
-//       box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.55);
-//       padding: 30px 50px;
+    .courses__item {
+      position: relative;
+      width: 45%;
+      margin-top: 40px;
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.55);
+      padding: 30px 50px;
 
-//       @media screen and (max-width: 1300px) {
-//         min-height: 0;
-//         width: 95%;
-//       }
+      @media screen and (max-width: 1300px) {
+        min-height: 0;
+        width: 95%;
+      }
 
-//       @media screen and (max-width: 500px) {
-//         padding: 20px;
-//       }
+      @media screen and (max-width: 500px) {
+        padding: 20px;
+      }
 
-//       .item__icon {
-//         position: absolute;
-//         top: 0;
-//         right: 0;
-//         background-color: $interfaceColor;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         height: 70px;
-//         width: 70px;
-//         border-radius: 50%;
-//         transform: translate(30%, -30%);
+      .item__icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: $interfaceColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        transform: translate(30%, -30%);
 
-//         @media screen and (max-width: 500px) {
-//           height: 50px;
-//           width: 50px;
-//         }
+        @media screen and (max-width: 500px) {
+          height: 50px;
+          width: 50px;
+        }
 
-//         .icon {
-//           height: 70%;
-//           width: 70%;
-//         }
-//       }
+        .icon {
+          height: 70%;
+          width: 70%;
+        }
+      }
 
-//       .item__title {
-//         font-size: 24px;
-//         color: $interfaceColor;
-//         font-weight: 400;
-//         text-align: center;
+      .item__title {
+        font-size: 24px;
+        color: $interfaceColor;
+        font-weight: 400;
+        text-align: center;
 
-//         @media screen and (max-width: 500px) {
-//           font-size: 20px;
-//         }
-//       }
+        @media screen and (max-width: 500px) {
+          font-size: 20px;
+        }
+      }
 
-//       .item__section {
-//         position: relative;
-//         bottom: 0px;
-//         width: 100%;
-//         margin-top: 10px;
-//         display: block;
-//         flex-direction: column;
-//         justify-content: space-between;
+      .item__section {
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        margin-top: 10px;
+        display: block;
+        flex-direction: column;
+        justify-content: space-between;
 
-//         hr {
-//           border: 1px solid $interfaceColor;
-//           margin: 30px 0;
+        hr {
+          border: 1px solid $interfaceColor;
+          margin: 30px 0;
 
-//           @media screen and (max-width: 500px) {
-//             margin: 20px 0;
-//           }
-//         }
+          @media screen and (max-width: 500px) {
+            margin: 20px 0;
+          }
+        }
 
-//         .item__price {
-//           text-align: center;
-//           font-size: 28px;
-//           color: $interfaceColor;
+        .item__price {
+          text-align: center;
+          font-size: 28px;
+          color: $interfaceColor;
 
-//           @media screen and (max-width: 500px) {
-//             font-size: 24px;
-//           }
-//         }
+          @media screen and (max-width: 500px) {
+            font-size: 24px;
+          }
+        }
 
-//         .item__price_old {
-//           text-align: center;
-//           font-size: 28px;
-//           color: $interfaceColor;
-//           text-decoration: line-through;
+        .item__price_old {
+          text-align: center;
+          font-size: 28px;
+          color: $interfaceColor;
+          text-decoration: line-through;
 
-//           @media screen and (max-width: 500px) {
-//             font-size: 24px;
-//           }
-//         }
+          @media screen and (max-width: 500px) {
+            font-size: 24px;
+          }
+        }
 
-//         .item__buy {
-//           width: 100%;
-//           background-color: $interfaceColor;
-//           padding: 20px 0;
-//           text-align: center;
-//           border: none;
-//           border-radius: 20px;
-//           color: white;
-//           font-size: 24px;
-//           margin-top: 30px;
-//           cursor: pointer;
-//           transition: 0.3s;
-//           outline: none;
-//           -webkit-appearance: none;
+        .item__buy {
+          width: 100%;
+          background-color: $interfaceColor;
+          padding: 20px 0;
+          text-align: center;
+          border: none;
+          border-radius: 20px;
+          color: white;
+          font-size: 24px;
+          margin-top: 30px;
+          cursor: pointer;
+          transition: 0.3s;
+          outline: none;
+          -webkit-appearance: none;
 
-//           &:hover {
-//             opacity: 0.9;
-//           }
+          &:hover {
+            opacity: 0.9;
+          }
 
-//           &:active {
-//             transform: scale(0.98);
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+          &:active {
+            transform: scale(0.98);
+          }
+        }
+      }
+    }
+  }
+}
 
 .free__courses {
   height: auto !important;
