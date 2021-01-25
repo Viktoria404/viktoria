@@ -34,7 +34,7 @@ section {
 
 .progress-bar .progress-container .progress-bar {
   height: 5px;
-  background: #ec407a;
+  background: #ff8161;
   width: 0%;
 }
 
@@ -188,7 +188,7 @@ section {
 }
 
 .news-img-block .news__title {
-  color: #ec407a;
+  color: #ff8161;
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
@@ -252,7 +252,7 @@ section {
 }
 
 .courses .courses__title {
-  color: #ec407a;
+  color: #ff8161;
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
@@ -335,7 +335,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #ec407a;
+  background-color: #ff8161;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,7 +366,7 @@ section {
 
 .courses .courses__block .courses__item .item__title {
   font-size: 24px;
-  color: #ec407a;
+  color: #ff8161;
   font-weight: 400;
 }
 
@@ -474,7 +474,7 @@ section {
 }
 
 .courses .courses__block .courses__item .item__section hr {
-  border: 1px solid #ec407a;
+  border: 1px solid #ff8161;
   margin: 30px 0;
 }
 
@@ -487,7 +487,7 @@ section {
 .courses .courses__block .courses__item .item__section .item__price {
   text-align: center;
   font-size: 36px;
-  color: #ec407a;
+  color: #ff8161;
 }
 
 @media screen and (max-width: 500px) {
@@ -499,7 +499,7 @@ section {
 .courses .courses__block .courses__item .item__section .item__price_old {
   text-align: center;
   font-size: 36px;
-  color: #ec407a;
+  color: #ff8161;
   text-decoration: line-through;
 }
 
@@ -511,7 +511,7 @@ section {
 
 .courses .courses__block .courses__item .item__section .item__buy {
   width: 100%;
-  background-color: #ec407a;
+  background-color: #ff8161;
   padding: 20px 0;
   text-align: center;
   border: none;
@@ -543,7 +543,7 @@ section {
   width: 100%;
   padding: 20px 0;
   text-align: center;
-  background-color: #ec407a;
+  background-color: #ff8161;
   color: white;
 }
 
@@ -614,7 +614,7 @@ section {
 }
 
 .courses__guide .courses__title {
-  color: #ec407a;
+  color: #ff8161;
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
@@ -668,7 +668,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #ec407a;
+  background-color: #ff8161;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -699,7 +699,7 @@ section {
 
 .courses__guide .courses__block .courses__item .item__title {
   font-size: 24px;
-  color: #ec407a;
+  color: #ff8161;
   font-weight: 400;
   text-align: center;
 }
@@ -726,7 +726,7 @@ section {
 }
 
 .courses__guide .courses__block .courses__item .item__section hr {
-  border: 1px solid #ec407a;
+  border: 1px solid #ff8161;
   margin: 30px 0;
 }
 
@@ -739,7 +739,7 @@ section {
 .courses__guide .courses__block .courses__item .item__section .item__price {
   text-align: center;
   font-size: 28px;
-  color: #ec407a;
+  color: #ff8161;
 }
 
 @media screen and (max-width: 500px) {
@@ -751,7 +751,7 @@ section {
 .courses__guide .courses__block .courses__item .item__section .item__price_old {
   text-align: center;
   font-size: 28px;
-  color: #ec407a;
+  color: #ff8161;
   text-decoration: line-through;
 }
 
@@ -763,7 +763,7 @@ section {
 
 .courses__guide .courses__block .courses__item .item__section .item__buy {
   width: 100%;
-  background-color: #ec407a;
+  background-color: #ff8161;
   padding: 20px 0;
   text-align: center;
   border: none;
@@ -861,7 +861,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #ec407a;
+  background-color: #ff8161;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -905,7 +905,7 @@ section {
 .free__courses .courses__block .courses__item .item__price {
   text-align: center;
   font-size: 28px;
-  color: #ec407a;
+  color: #ff8161;
 }
 
 @media screen and (max-width: 500px) {
@@ -916,7 +916,7 @@ section {
 
 .free__courses .courses__block .courses__item .item__download {
   width: 100%;
-  background-color: #ec407a;
+  background-color: #ff8161;
   text-align: center;
   border: none;
   border-radius: 20px;
@@ -978,7 +978,7 @@ section {
 .sale .sale__title {
   font-size: 36px;
   text-align: center;
-  color: #ec407a;
+  color: #ff8161;
   font-weight: lighter;
 }
 
@@ -992,7 +992,7 @@ section {
   width: 200px;
   background-color: transparent;
   text-align: center;
-  border: 1px solid #ec407a;
+  border: 1px solid #ff8161;
   border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
@@ -1022,7 +1022,7 @@ section {
 }
 
 .sale .sale__send a {
-  color: #ec407a;
+  color: #ff8161;
   font-size: 18px;
   text-decoration: none;
   height: 100%;
@@ -1034,7 +1034,7 @@ section {
 }
 
 .pink {
-  color: #ec407a;
+  color: #ff8161;
 }
 
 .popup {
@@ -1114,7 +1114,7 @@ section {
 .payment__popup .pay__form .pay__btn {
   font-size: 18px;
   padding: 10px 0;
-  background-color: #ec407a;
+  background-color: #ff8161;
   color: white;
   border: none;
   border-radius: 10px;
@@ -1138,7 +1138,7 @@ section {
 .payment__popup .pay__form .exit__btn {
   font-size: 18px;
   padding: 10px 0;
-  background-color: #ec407a;
+  background-color: #ff8161;
   color: white;
   border: none;
   border-radius: 10px;
