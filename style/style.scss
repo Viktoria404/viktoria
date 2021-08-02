@@ -213,6 +213,46 @@ section {
     }
   }
 
+  .courses__count-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 10px 0;
+    @media screen and (max-width: 500px) {
+      padding: 0 10px;
+    }
+    &-button {
+      width: 500px;
+      background-color: $interfaceColor;
+      padding: 20px 0;
+      text-align: center;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      font-size: 24px;
+      margin-top: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      outline: none;
+      -webkit-appearance: none;
+      text-decoration: none;
+
+      @media screen and (max-width: 500px) {
+        width: 100%;
+        font-size: 20px;
+        padding: 15px 0;
+      }
+
+      &:hover {
+        opacity: 0.9;
+      }
+
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  }
+
   .courses__block {
     display: flex;
     width: 100%;
